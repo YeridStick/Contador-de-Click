@@ -1,0 +1,12 @@
+.contenedor_contador{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+}
+.contenedor_contador p{
+    padding: 25px;
+    color: white;
+}

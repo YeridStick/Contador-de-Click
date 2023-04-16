@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  background-color: rgb(29, 29, 29);
+  height: 100vh;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.contenedor-principal{
+  margin: auto;
+}
+.contenedor-logo {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-react {
+  margin: auto;
+  width: 150px;
+  transition: all 0.2s ease;
+  animation: rotacion 3s linear infinite;
+}
+@keyframes rotacion{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo-react:hover{
+  scale: 1.2;
+}
